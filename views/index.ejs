@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Express App</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1>
+      <%= title %>
+    </h1>
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>ID #</th>
+            <th>Term</th>
+            <th>Description</th>
+            <th>Refrences</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% glossaries.forEach(function(glossary) { %>
+            <tr>
+              <td>
+                <%= glossary.id %>
+              </td>
+              <td>
+                <%= glossary.term %>
+              </td>
+              <td style="max-width: 400px; overflow: scroll;">
+                <%= glossary.description %>
+              </td>
+              <td style="max-width: 300px; overflow: scroll;">
+                <%= glossary.refrence %>
+              </td>
+            </tr>
+            <% }); %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>
