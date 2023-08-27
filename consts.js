@@ -194,7 +194,7 @@ const glosarries = [
     id: 26,
     term: "Docker Container",
     description:
-      "A Docker container is a runtime instance of a Docker image that gets created when the $ docker run command is implemented",
+      "  A Docker container is a runtime instance of a Docker image that gets created when the $ docker run command is implemented",
     refrence: "https://circleci.com/blog/docker-image-vs-container/",
   },
   {
