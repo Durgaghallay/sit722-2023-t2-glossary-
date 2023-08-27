@@ -152,5 +152,79 @@ const glosarries = [
     refrence:
       "https://www.atlassian.com/agile#:~:text=The%20Agile%20methodology%20is%20a,READ%20ON%20BELOW",
   },
+  {
+    id: 21,
+    term: "Docker",
+    description:
+      "Docker is a software platform designed for fast building, testing, and deploying of applications. It encapsulates software in uniform units known as containers, which encompass all required components such as libraries, system tools, code, and runtime. With Docker, we can efficiently launch and scale applications in any setting, ensuring consistent performance.",
+    refrence: "https://aws.amazon.com/docker/",
+  },
+  {
+    id: 22,
+    term: "Docker Compose",
+    description:
+      "Compose is a tool designed for setting up and executing multiple-container Docker applications. Through Compose, we employ a YAML file to outline our application's services. Subsequently, with just one command, we can initiate and run all the services defined in your configuration.",
+    refrence: "https://docs.docker.com/compose/",
+  },
+  {
+    id: 23,
+    term: "Container Registry",
+    description:
+      "A container registry functions as a storage space or a set of storage spaces where container images are housed. These registries facilitate container-centric application development, commonly within DevOps workflows. They can also integrate seamlessly with container orchestration systems such as Docker and Kubernetes",
+    refrence:
+      "https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry",
+  },
+  {
+    id: 24,
+    term: "Docker Image",
+    description:
+      "A Docker image is a lightweight, standalone, executable software package that includes everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings. Images are used to create Docker containers. When a container is launched from an image, it becomes a running instance of that image.",
+    refrence:
+      "https://www.techtarget.com/searchitoperations/definition/Docker-image#:~:text=A%20Docker%20image%20is%20a,virtual%20machine%20(VM)%20environments.",
+  },
+  {
+    id: 25,
+    term: "Docker Image Tag",
+    description:
+      "The Docker tag is used to keep track of build versions when pushing images to Docker Hub. A single image can have multiple Docker tags associated with it. Similar to commits in Git, Docker tags act as a reference or alias for a specific image ID.",
+    refrence:
+      "https://www.baeldung.com/ops/docker-tag#:~:text=Docker%20tags%20are%20just%20an,can%20only%20contain%20128%20characters.",
+  },
+  {
+    id: 26,
+    term: "Docker Container",
+    description:
+      "A Docker container is a runtime instance of a Docker image that gets created when the $ docker run command is implemented",
+    refrence: "https://circleci.com/blog/docker-image-vs-container/",
+  },
+  {
+    id: 27,
+    term: "Docker Service",
+    description:
+      "Service is a definition of how an application component should run. It might dictate which Docker image to use, which ports to expose, how many replicas of the container to run, etc.",
+    refrence: "https://docs.docker.com/compose/compose-file/05-services/",
+  },
+  {
+    id: 28,
+    term: "Docker Service",
+    description:
+      "Service is a definition of how an application component should run. It might dictate which Docker image to use, which ports to expose, how many replicas of the container to run, etc.",
+    refrence: "https://docs.docker.com/compose/compose-file/05-services/",
+  },
+  {
+    id: 29,
+    term: "Docker Swarm",
+    description:
+      "Docker's native orchestration tool that allows you to manage and coordinate multiple Docker nodes as one collective entity, facilitating the deployment and scaling of containerized applications across multiple machines.",
+    refrence: "https://docs.docker.com/engine/swarm/",
+  },
+  {
+    id: 30,
+    term: "YAML",
+    description:
+      "YAML stands for \"YAML Ain't Markup Language,\". While not truly a markup language, YAML is better characterized as a data serialization format or a configuration language. Its function is akin to JSON, but it's designed with a structure that's easier for humans to read and understand.",
+    refrence:
+      "https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started",
+  },
 ];
 module.exports = { glosarries };
