@@ -225,6 +225,80 @@ const glosarries = [
       "YAML stands for \"YAML Ain't Markup Language,\". While not truly a markup language, YAML is better characterized as a data serialization format or a configuration language. Its function is akin to JSON, but it's designed with a structure that's easier for humans to read and understand.",
     refrence:
       "https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started",
+  },  {
+    id: 31,
+    term: "Kubernetes",
+    description:
+      "Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications.",
+    refrence: "https://kubernetes.io/",
+  },
+  {
+    id: 32,
+    term: "Container Orchestration",
+    description:
+      "Container orchestration refers to the automated arrangement, coordination, and management of computer system containers. Containers are lightweight, standalone, and executable software packages that encompass everything needed to run a piece of software, including the code, runtime, system tools, system libraries, and settings",
+    refrence:
+      "https://cloud.google.com/discover/what-is-container-orchestration#:~:text=Container%20orchestration%20automatically%20provisions%2C%20deploys,life%20cycle%20management%20of%20containers.",
+  },
+  {
+    id: 33,
+    term: "Kubernetes",
+    description:
+      "A Kubernetes cluster is a set of machines, or nodes, that run containerized applications managed by Kubernetes. A cluster is composed of at least one control plane node and multiple worker nodes. The control plane's components make global decisions about the cluster (for example, scheduling), while the worker nodes run the actual containerized applications.",
+    refrence: "https://kubernetes.io/docs/concepts/architecture/",
+  },
+  {
+    id: 34,
+    term: "Infrastructure As Code",
+    description:
+      "Infrastructure as Code (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes.",
+    refrence:
+      "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac",
+  },
+  {
+    id: 35,
+    term: "Immutable Infrastructure",
+    description:
+      "Instead of updating existing infrastructure, create a new one from scratch each time a change is needed and replace the old one. This practice minimizes inconsistencies and drifts.",
+    refrence:
+      "https://www.hashicorp.com/resources/what-is-mutable-vs-immutable-infrastructure",
+  },
+  {
+    id: 36,
+    term: "Terraform",
+    description:
+      "Terraform is an infrastructure as code tool that lets you build, change, and version cloud and on-prem resources safely and efficiently.",
+    refrence: "https://developer.hashicorp.com/terraform/intro",
+  },
+  {
+    id: 37,
+    term: "Service Principal",
+    description:
+      "A service principal is an authentication mechanism for Azure. It allows our cluster to authenticate with Azure so that it can create Azure load balancers as external endpoints for our customer-facing microservices",
+    refrence:
+      "https://learn.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals?tabs=browser",
+  },
+  {
+    id: 38,
+    term: "Role-Based Access Control (RBAC)",
+    description:
+      "Role-Based Access Control (RBAC) is a system that restricts system access to authorized users. It's a principle and a mechanism to streamline the process of managing permissions in various systems.",
+    refrence:
+      "https://www.imperva.com/learn/data-security/role-based-access-control-rbac/#:~:text=EssentialsRegulation%20%26%20Compliance-,What%20is%20RBAC,enable%20access%20to%20authorized%20users.",
+  },
+  {
+    id: 39,
+    term: "kubectl",
+    description:
+      "kubectl is the command-line interface (CLI) tool for interacting with a Kubernetes cluster. It provides commands for a multitude of tasks, including creating and deleting resources, deploying applications, and troubleshooting.",
+    refrence: "https://kubernetes.io/docs/reference/kubectl/",
+  },
+  {
+    id: 40,
+    term: "Terraform Providers",
+    description:
+      "Terraform providers are plugins that allow Terraform to manage a wide range of resources. Each provider is specific to a certain platform or service, such as AWS, Azure, Google Cloud, GitHub, etc.",
+    refrence: "https://spacelift.io/blog/terraform-providers",
   },
 ];
 module.exports = { glosarries };
