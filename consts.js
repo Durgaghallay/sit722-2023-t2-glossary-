@@ -186,7 +186,7 @@ const glosarries = [
     id: 25,
     term: "Docker Image Tag",
     description:
-      "The Docker tag is used to keep track of build versions when pushing images to Docker Hub. A single image can have multiple Docker tags associated with it. Similar to commits in Git, Docker tags act as a reference or alias for a specific image ID.",
+      "The Docker tag is used to keep track of build versions when pushing images to Docker Hub. A single image can have multiple Docker tags associated with it. Similar to commits in Git, Docker tags act as a refrence or alias for a specific image ID.",
     refrence:
       "https://www.baeldung.com/ops/docker-tag#:~:text=Docker%20tags%20are%20just%20an,can%20only%20contain%20128%20characters.",
   },
@@ -291,7 +291,7 @@ const glosarries = [
     term: "kubectl",
     description:
       "kubectl is the command-line interface (CLI) tool for interacting with a Kubernetes cluster. It provides commands for a multitude of tasks, including creating and deleting resources, deploying applications, and troubleshooting.",
-    refrence: "https://kubernetes.io/docs/reference/kubectl/",
+    refrence: "https://kubernetes.io/docs/refrence/kubectl/",
   },
   {
     id: 40,
@@ -299,6 +299,88 @@ const glosarries = [
     description:
       "Terraform providers are plugins that allow Terraform to manage a wide range of resources. Each provider is specific to a certain platform or service, such as AWS, Azure, Google Cloud, GitHub, etc.",
     refrence: "https://spacelift.io/blog/terraform-providers",
+  }
+  ,
+  {
+    id: 41,
+    term: "State Management",
+    description:
+      "A concept in Terraform that refers to the persistent storage of resource metadata, facilitating the mapping between resources in the configuration to real-world resources.",
+    refrence:
+      'HashiCorp. (2020). "About State." Terraform by HashiCorp. [Link](https://www.terraform.io/docs/language/state/index.html)',
   },
+  {
+    id: 42,
+    term: "Load Balancing",
+    description:
+      "A method to distribute incoming network traffic across multiple servers, ensuring no single server is overwhelmed with too much demand.",
+    refrence:
+      'Kubernetes. (2021). "Service." Kubernetes.io. [Link](https://kubernetes.io/docs/concepts/services-networking/service/)',
+  },
+  {
+    id: 43,
+    term: "Azure AD Integration",
+    description:
+      "In the context of AKS, it's the integration with Azure Active Directory to provide user authentication and authorization for cluster operations.",
+    refrence:
+      'Microsoft. (2021). "Azure AD integration with AKS." Microsoft Docs. [Link](https://docs.microsoft.com/en-us/azure/aks/managed-aad)',
+  },
+  {
+    id: 44,
+    term: "Node Pools",
+    description:
+      "Groups of nodes (or VMs) in Azure Kubernetes Service that can scale and update independently.",
+    refrence:
+      'Microsoft. (2021). "Node pools in AKS." Microsoft Docs. [Link](https://docs.microsoft.com/en-us/azure/aks/use-multiple-node-pools)',
+  },
+  {
+    id: 45,
+    term: "AKS Network Policies",
+    description:
+      "Defines how pods communicate with each other and other network endpoints in Azure Kubernetes Service.",
+    refrence:
+      'Microsoft. (2021). "Use network policies in Azure Kubernetes Service." Microsoft Docs. [Link](https://docs.microsoft.com/en-us/azure/aks/use-network-policies)',
+  },
+  {
+    id: 46,
+    term: "Pod Identity",
+    description:
+      "A feature in Azure Kubernetes Service that assigns managed identities to pods, allowing pod processes to authenticate to Azure services.",
+    refrence:
+      'Microsoft. (2021). "Use Pod Identity with Azure Kubernetes Service." Microsoft Docs. [Link](https://docs.microsoft.com/en-us/azure/aks/use-azure-ad-pod-identity)',
+  },
+  {
+    id: 47,
+    term: "Azure Monitor and Logs",
+    description:
+      "Monitoring services provided by Azure to gain insights into the performance and health of workloads, including AKS applications.",
+    refrence:
+      'Microsoft. (2021). "Monitor Azure Kubernetes Service with Azure Monitor." Microsoft Docs. [Link](https://docs.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview)',
+  },
+  {
+    id: 48,
+    term: "Secret Management",
+    description:
+      "A method of protecting sensitive data like API keys and passwords in a secure way, especially in a Kubernetes environment.",
+    refrence:
+      'Kubernetes. (2021). "Secrets." Kubernetes.io. [Link](https://kubernetes.io/docs/concepts/configuration/secret/)',
+  },
+  {
+    id: 49,
+    term: "Rolling Update",
+    description:
+      "A method of updating applications in a way that avoids downtime by incrementally replacing instances of old versions with instances of the new version.",
+    refrence:
+      'Kubernetes. (2021). "Rolling updates with kubectl". Kubernetes.io. [Link](https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/)',
+  },
+  {
+    id: 50,
+    term: "Persistent Volumes (PV)",
+    description:
+      "A way in Kubernetes to provide storage resources, such as disks, in a more persistent manner than what is associated with Pods.",
+    refrence:
+      'Kubernetes. (2021). "Persistent Volumes." Kubernetes.io. [Link](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)',
+  },
+
 ];
 module.exports = { glosarries };

@@ -37,5 +37,9 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server started on http://localhost:${PORT}`);
+});
 
 module.exports = app;
